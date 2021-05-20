@@ -1,7 +1,7 @@
-import React from "./index";
+import React from "react";
 
-function App() {
-  return <div></div>;
-}
+const App = () => {
+  <div></div>;
+};
 
 export default App;
