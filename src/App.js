@@ -1,14 +1,6 @@
-import React, { useState } from "react";
-import WidthPrinter from "./WidthPrinter";
+import React, { useState, useEffect } from "react";
 
 const App = () => {
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-      {count === 0 && <WidthPrinter />}
-      <button onClick={() => setCount(count + 1)}>증가</button>
-    </div>
-  );
+  return <div></div>;
 };
-
 export default App;
